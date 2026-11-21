@@ -7,17 +7,21 @@ const fs = require('fs');
 const path = require('path');
 const db = require('../config/db');
 
-const DATA_DIR = path.join(__dirname, '..', 'data');
+// Serverless-safe data directory (Vercel serverless uses /tmp)
+const isServerless = Boolean(process.env.VERCEL || process.env.AWS_LAMBDA_FUNCTION_NAME);
+const DATA_DIR = isServerless ? '/tmp' : path.join(__dirname, '..', 'data');
 const MESSAGES_FILE = path.join(DATA_DIR, 'messages.json');
 
-// Ensure data directory exists
-if (!fs.existsSync(DATA_DIR)) {
-    fs.mkdirSync(DATA_DIR, { recursive: true });
-}
-
-// Ensure messages file exists
-if (!fs.existsSync(MESSAGES_FILE)) {
-    fs.writeFileSync(MESSAGES_FILE, JSON.stringify([], null, 2), 'utf-8');
+// Ensure data directory exists safely
+try {
+    if (!fs.existsSync(DATA_DIR)) {
+        fs.mkdirSync(DATA_DIR, { recursive: true });
+    }
+    if (!fs.existsSync(MESSAGES_FILE)) {
+        fs.writeFileSync(MESSAGES_FILE, JSON.stringify([], null, 2), 'utf-8');
+    }
+} catch (e) {
+    console.warn('[ContactController] Storage init notice:', e.message);
 }
 
 /**

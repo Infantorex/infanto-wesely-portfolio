@@ -1,11 +1,17 @@
 {
-  "name": "infanto-wesely-portfolio-root",
+  "name": "infanto-wesely-portfolio",
   "version": "1.0.0",
-  "description": "Root workspace script runner and GitHub synchronization for Infanto Wesely R portfolio",
+  "description": "Portfolio and venture showcase of Infanto Wesely R — Founder & CEO of Rex Hören Industries",
+  "main": "portfolio/backend/server.js",
   "scripts": {
     "start": "node portfolio/backend/server.js",
     "dev": "node --watch portfolio/backend/server.js",
     "sync": "powershell -ExecutionPolicy Bypass -File ./sync.ps1",
-    "push": "git add -A && git commit -m \"Update portfolio: %npm_config_message%\" && git push origin main"
+    "push": "git add -A && git commit -m \"Update portfolio\" && git push origin main"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5"
   }
 }

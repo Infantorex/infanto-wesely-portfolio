@@ -53,12 +53,16 @@ app.get('*', (req, res) => {
     }
 });
 
-// Start listening
-app.listen(PORT, () => {
-    console.log('====================================================');
-    console.log(` INFANTO WESELY R — PORTFOLIO & VENTURE SERVER`);
-    console.log(` Founder & CEO – REX HÖREN INDUSTRIES`);
-    console.log(` Running on: http://localhost:${PORT}`);
-    console.log(` Environment: ${process.env.NODE_ENV || 'development'}`);
-    console.log('====================================================');
-});
+// Start listening when executed directly
+if (!process.env.VERCEL && require.main === module) {
+    app.listen(PORT, () => {
+        console.log('====================================================');
+        console.log(` INFANTO WESELY R — PORTFOLIO & VENTURE SERVER`);
+        console.log(` Founder & CEO – REX HÖREN INDUSTRIES`);
+        console.log(` Running on: http://localhost:${PORT}`);
+        console.log(` Environment: ${process.env.NODE_ENV || 'development'}`);
+        console.log('====================================================');
+    });
+}
+
+module.exports = app;
