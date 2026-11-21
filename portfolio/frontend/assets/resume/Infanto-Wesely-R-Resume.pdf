@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume — Infanto Wesely R | Founder & CEO, Rex Hören Industries</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', sans-serif;
+      color: #111111;
+      background: #FFFFFF;
+      padding: 40px 50px;
+      max-width: 850px;
+      margin: 0 auto;
+      line-height: 1.5;
+      font-size: 13px;
+    }
+    .header {
+      border-bottom: 2px solid #111111;
+      padding-bottom: 20px;
+      margin-bottom: 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    .name {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      color: #111111;
+      text-transform: uppercase;
+    }
+    .title-badge {
+      font-family: 'Space Mono', monospace;
+      font-size: 11px;
+      font-weight: 700;
+      color: #D97745;
+      margin-top: 4px;
+      letter-spacing: 0.5px;
+    }
+    .contact-details {
+      text-align: right;
+      font-size: 12px;
+      color: #555555;
+      line-height: 1.6;
+    }
+    .section-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #111111;
+      border-bottom: 1px solid #D5D0C5;
+      padding-bottom: 4px;
+      margin-top: 20px;
+      margin-bottom: 12px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .section-title span.number {
+      color: #D97745;
+      font-family: 'Space Mono', monospace;
+    }
+    .item { margin-bottom: 14px; }
+    .item-header {
+      display: flex;
+      justify-content: space-between;
+      font-weight: 700;
+      font-size: 13px;
+      margin-bottom: 2px;
+    }
+    .item-sub {
+      color: #666666;
+      font-size: 12px;
+      font-style: italic;
+      margin-bottom: 4px;
+    }
+    ul { padding-left: 18px; margin-top: 4px; }
+    li { margin-bottom: 3px; color: #222222; }
+    .skills-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+    .skill-category strong {
+      display: block;
+      font-size: 11.5px;
+      text-transform: uppercase;
+      color: #D97745;
+      font-family: 'Space Mono', monospace;
+      margin-bottom: 3px;
+    }
+    .print-btn {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: #D97745;
+      color: #FFF;
+      border: none;
+      padding: 10px 18px;
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 700;
+      border-radius: 4px;
+      cursor: pointer;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+    @media print {
+      body { padding: 0; }
+      .print-btn { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <button class="print-btn" onclick="window.print()">Print / Save PDF</button>
+
+  <header class="header">
+    <div>
+      <h1 class="name">Infanto Wesely R</h1>
+      <div class="title-badge">FOUNDER &amp; CEO — REX HÖREN INDUSTRIES | PRODUCT INNOVATOR</div>
+      <div style="margin-top: 6px; color: #444444; font-size: 12px;">
+        Mechanical Engineering Student | K. Ramakrishnan College of Technology
+      </div>
+    </div>
+    <div class="contact-details">
+      <div>Tamil Nadu, India</div>
+      <div>infanto.wesely@example.com</div>
+      <div>linkedin.com/in/infanto-wesely</div>
+      <div>github.com/infanto-wesely</div>
+    </div>
+  </header>
+
+  <section>
+    <div class="section-title"><span>Professional Profile</span> <span class="number">01</span></div>
+    <p style="color: #333333; line-height: 1.6;">
+      Founder &amp; CEO of Rex Hören Industries and Mechanical Engineering student with hands-on expertise in product design, additive manufacturing, embedded IoT hardware, and digital signal processing. Passionate about transforming engineering ideas into meaningful solutions, from patented hydraulic monitoring systems to innovative assistive trigeminal acoustic technology.
+    </p>
+  </section>
+
+  <section>
+    <div class="section-title"><span>Ventures &amp; Leadership</span> <span class="number">02</span></div>
+    <div class="item">
+      <div class="item-header">
+        <span>Founder &amp; Chief Executive Officer (CEO)</span>
+        <span style="font-family: 'Space Mono', monospace; font-size: 12px;">Present</span>
+      </div>
+      <div class="item-sub">REX HÖREN INDUSTRIES — Assistive Technology &amp; Engineering Solutions</div>
+      <ul>
+        <li>Directing startup vision, technical research, and product strategy for hardware innovations.</li>
+        <li>Spearheading the engineering architecture of <strong>Vibrawave</strong>, a novel assistive hearing concept based on trigeminal tactile feedback.</li>
+        <li>Formulating prototype roadmaps, manufacturing strategies, and engineering collaborations.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-title"><span>Patents &amp; Intellectual Property</span> <span class="number">03</span></div>
+    <div class="item">
+      <div class="item-header">
+        <span>BACKHOE HYDRAULIC CYLINDER MONITOR (Published Patent Application)</span>
+        <span style="font-family: 'Space Mono', monospace; font-size: 12px;">Nov 2026</span>
+      </div>
+      <div class="item-sub">Application No: 202641130456 A | The Patent Office Journal No. 45/2026, Pg. 143864</div>
+      <ul>
+        <li>Official Indian Patent Application published on 06 November 2026 (Filed 02 November 2026).</li>
+        <li>Lead Contributor: <strong>INFANTO WESELY REX JOHN VISUVASAM</strong>.</li>
+        <li>Designed a multi-sensor monitoring system for JCB backhoe cylinders integrating hydraulic pressure, fluid temperature, and oil level tracking via an ESP32 edge controller to prevent hydraulic failures and cavitation.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-title"><span>Featured Engineering Innovations</span> <span class="number">04</span></div>
+    <div class="item">
+      <div class="item-header">
+        <span>Vibrawave — Trigeminal Nerve Acoustic Interface</span>
+        <span style="color: #D97745; font-family: 'Space Mono', monospace; font-size: 11px;">ARIFA Hackathon 3rd Prize</span>
+      </div>
+      <div class="item-sub">MEMS Microphone, DSP, Adaptive Filtering, Bluetooth 5.0, Tactile Vibration Transducer</div>
+      <ul>
+        <li>Engineered proof-of-concept hardware converting speech waveforms into tactile vibrations targeted at trigeminal cranial pathways.</li>
+        <li>Awarded Third Prize at the ARIFA Hackathon, Nagapattinam for product innovation.</li>
+      </ul>
+    </div>
+    <div class="item">
+      <div class="item-header">
+        <span>SafeGuardX — Smart Industrial Safety Helmet</span>
+        <span style="font-family: 'Space Mono', monospace; font-size: 12px;">IoT &amp; Industrial AI</span>
+      </div>
+      <div class="item-sub">ESP32, MAX30102, MPU6050, MQ-135, DHT22, GPS, GSM</div>
+      <ul>
+        <li>Integrated biometric telemetry (heart rate, SpO2) and hazard detection (toxic gases, impact, fall) with autonomous cellular emergency alerts for mining and heavy construction workers.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-title"><span>Experience &amp; Internships</span> <span class="number">05</span></div>
+    <div class="item">
+      <div class="item-header">
+        <span>Engineering &amp; Technology Intern</span>
+        <span style="font-family: 'Space Mono', monospace; font-size: 12px;">Internship</span>
+      </div>
+      <div class="item-sub">Shiksha Vertex</div>
+      <ul>
+        <li>Engaged in technical skill development, engineering workflows, and collaborative project execution.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-title"><span>Technical Expertise</span> <span class="number">06</span></div>
+    <div class="skills-grid">
+      <div class="skill-category">
+        <strong>Mechanical Engineering</strong>
+        <div>SolidWorks, CAD Modelling, Mechanical Design, Product Development, Additive Manufacturing, Engineering Drawing, Design Analysis, DFM.</div>
+      </div>
+      <div class="skill-category">
+        <strong>Electronics &amp; Automation</strong>
+        <div>ESP32, Arduino, IoT Systems, Embedded Systems, PCB Design, Sensors &amp; Instrumentation, Robotics, Industrial Automation.</div>
+      </div>
+      <div class="skill-category">
+        <strong>Programming &amp; Web</strong>
+        <div>HTML, CSS, JavaScript, Python Basics, Node.js, Express.js, MySQL, Bootstrap.</div>
+      </div>
+      <div class="skill-category">
+        <strong>Tools &amp; Workflow</strong>
+        <div>Git, GitHub, Canva, Microsoft Excel, Microsoft PowerPoint.</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-title"><span>Education</span> <span class="number">07</span></div>
+    <div class="item">
+      <div class="item-header">
+        <span>Bachelor of Engineering (B.E.) — Mechanical Engineering</span>
+        <span style="font-family: 'Space Mono', monospace; font-size: 12px;">Pursuing</span>
+      </div>
+      <div class="item-sub">K. Ramakrishnan College of Technology, Tamil Nadu, India</div>
+    </div>
+  </section>
+</body>
+</html>

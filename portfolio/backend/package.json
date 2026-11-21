@@ -1,0 +1,28 @@
+{
+  "name": "infanto-wesely-portfolio",
+  "version": "1.0.0",
+  "description": "Personal Portfolio & Venture Showcase of Infanto Wesely R — Founder & CEO of Rex Hören Industries, Mechanical Engineering Student, Product Innovator & Entrepreneur",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "portfolio",
+    "infanto-wesely-r",
+    "rex-horen-industries",
+    "mechanical-engineering",
+    "vibrawave",
+    "patents",
+    "safeguardx",
+    "iot",
+    "embedded-systems"
+  ],
+  "author": "Infanto Wesely R <infanto.wesely@example.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5"
+  }
+}

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" width="600" height="750">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A1A1A"/>
+      <stop offset="50%" stop-color="#141414"/>
+      <stop offset="100%" stop-color="#0E0E0E"/>
+    </linearGradient>
+    <linearGradient id="silhouetteGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2E2E2E"/>
+      <stop offset="100%" stop-color="#181818"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="750" fill="url(#bgGrad)"/>
+
+  <!-- Technical Drafting Corner Marks -->
+  <path d="M 25,50 L 25,25 L 50,25" fill="none" stroke="#D97745" stroke-width="2"/>
+  <path d="M 575,50 L 575,25 L 550,25" fill="none" stroke="#D97745" stroke-width="2"/>
+  <path d="M 25,700 L 25,725 L 50,725" fill="none" stroke="#D97745" stroke-width="2"/>
+  <path d="M 575,700 L 575,725 L 550,725" fill="none" stroke="#D97745" stroke-width="2"/>
+
+  <!-- Technical Background Grid -->
+  <line x1="25" y1="120" x2="575" y2="120" stroke="#222222" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="25" y1="620" x2="575" y2="620" stroke="#222222" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="120" y1="25" x2="120" y2="725" stroke="#222222" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="480" y1="25" x2="480" y2="725" stroke="#222222" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <!-- Minimalist Executive Silhouette & Composition -->
+  <g transform="translate(300, 380)">
+    <!-- Shoulders & Torso -->
+    <path d="M -160,260 C -150,140 -80,100 0,95 C 80,100 150,140 160,260 Z" fill="url(#silhouetteGrad)" stroke="#3A3A3A" stroke-width="1.5"/>
+    
+    <!-- Neck -->
+    <path d="M -35,98 L -35,20 L 35,20 L 35,98 Z" fill="#252525"/>
+    
+    <!-- Collar & Tie/Lapel Lines -->
+    <path d="M -45,100 L 0,180 L 45,100" fill="none" stroke="#D97745" stroke-width="2"/>
+    <path d="M 0,180 L 0,260" fill="none" stroke="#D97745" stroke-width="2"/>
+
+    <!-- Head & Hair Silhouette -->
+    <path d="M -55,-40 C -55,-130 55,-130 55,-40 C 55,20 35,50 0,55 C -35,50 -55,20 -55,-40 Z" fill="#2A2A2A" stroke="#444444" stroke-width="1.5"/>
+
+    <!-- Creative Director Specs / Glasses Line -->
+    <rect x="-42" y="-45" width="34" height="20" rx="3" fill="none" stroke="#D97745" stroke-width="2.5"/>
+    <rect x="8" y="-45" width="34" height="20" rx="3" fill="none" stroke="#D97745" stroke-width="2.5"/>
+    <line x1="-8" y1="-35" x2="8" y2="-35" stroke="#D97745" stroke-width="2.5"/>
+    <line x1="-42" y1="-35" x2="-52" y2="-38" stroke="#D97745" stroke-width="2"/>
+    <line x1="42" y1="-35" x2="52" y2="-38" stroke="#D97745" stroke-width="2"/>
+  </g>
+
+  <!-- Technical Overlay Typography -->
+  <g transform="translate(50, 80)">
+    <text x="0" y="0" font-family="'Space Mono', monospace" font-size="11" fill="#D97745" letter-spacing="1">FIGURE 01 // FOUNDER IDENTIFICATION</text>
+    <text x="0" y="24" font-family="'Space Grotesk', sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">INFANTO WESELY R</text>
+    <text x="0" y="42" font-family="'Inter', sans-serif" font-size="11" fill="#888888">FOUNDER &amp; CEO — REX HÖREN INDUSTRIES</text>
+  </g>
+
+  <g transform="translate(50, 680)">
+    <rect x="0" y="-18" width="500" height="36" fill="#141414" stroke="#2B2B2B" stroke-width="1" rx="4"/>
+    <text x="15" y="5" font-family="'Space Mono', monospace" font-size="10" fill="#D97745">KRCT / MECH ENG</text>
+    <text x="165" y="5" font-family="'Space Mono', monospace" font-size="10" fill="#A0A0A0">TAMIL NADU, INDIA</text>
+    <text x="360" y="5" font-family="'Space Mono', monospace" font-size="10" fill="#FFFFFF">STATUS: ACTIVE</text>
+  </g>
+</svg>
