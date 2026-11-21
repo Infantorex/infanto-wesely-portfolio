@@ -1,4 +1,4 @@
-﻿# ==========================================================
+# ==========================================================
 # INFANTO WESELY R — GITHUB & VERCEL AUTO-SYNC SCRIPT
 # Automatically stages all changes, commits, and pushes to GitHub.
 # When pushed, Vercel automatically detects the new commit and

@@ -32,7 +32,7 @@ app.use('/api', apiRoutes);
 app.get('/api/health', (req, res) => {
     res.json({
         status: 'online',
-        system: 'INFANTO LABS Portfolio Service',
+        system: 'INFANTO WESELY R Portfolio Service',
         founder: 'Infanto Wesely R',
         company: 'REX HÖREN INDUSTRIES',
         timestamp: new Date().toISOString()

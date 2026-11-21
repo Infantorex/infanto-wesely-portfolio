@@ -158,7 +158,7 @@ const projectDataStore = {
     safeguardx: {
         title: "SAFEGUARDX — SMART INDUSTRIAL SAFETY HELMET",
         category: "Industrial Safety / AI and IoT",
-        company: "INFANTO LABS",
+        company: "INFANTO WESELY R",
         tagline: "Multi-sensor biometric telemetry & hazardous environmental threat detection.",
         disclaimer: "Industrial safety research prototype developed for harsh operational environments.",
         overview: "SafeGuardX is a smart industrial safety helmet concept integrating connected multi-parameter sensors for comprehensive industrial worker health and hazardous environment monitoring.",
@@ -181,7 +181,7 @@ const projectDataStore = {
     agriculture: {
         title: "SMART AGRICULTURE TELEMETRY SYSTEM",
         category: "IoT & Embedded Automation",
-        company: "INFANTO LABS",
+        company: "INFANTO WESELY R",
         tagline: "Precision soil moisture monitoring and automated irrigation actuation.",
         overview: "An automated agricultural monitoring system that measures soil moisture, temperature, and electrical conductivity to trigger precise drip-irrigation cycles, conserving water while optimizing crop yields.",
         architecture: ["ESP32 Microcontroller", "Capacitive Soil Moisture Sensors", "Relay Actuation Bank", "Solenoid Valves", "Cloud Telemetry Dashboard"],
@@ -190,7 +190,7 @@ const projectDataStore = {
     iot_monitoring: {
         title: "INDUSTRIAL IOT MACHINE MONITORING",
         category: "Industrial IoT & Automation",
-        company: "INFANTO LABS",
+        company: "INFANTO WESELY R",
         tagline: "Edge sensor nodes for distributed industrial machinery condition tracking.",
         overview: "A modular telemetry hub capturing vibration, thermal dissipation, and electrical current in shop-floor equipment, streaming diagnostic telematics to centralized monitoring consoles.",
         architecture: ["ESP32 / Arduino Nodes", "Current Transducers (CT)", "Thermocouples", "MQTT Broker Uplink"],
@@ -199,7 +199,7 @@ const projectDataStore = {
     cad_design: {
         title: "PARAMETRIC MECHANICAL PRODUCT DESIGN",
         category: "Mechanical Engineering / CAD",
-        company: "INFANTO LABS",
+        company: "INFANTO WESELY R",
         tagline: "SolidWorks 3D modelling, stress concentration analysis, and DFM optimization.",
         overview: "Precision engineering models and assemblies created in SolidWorks, focusing on geometric dimensioning and tolerancing (GD&T), structural load path optimization, and design for manufacturing (DFM).",
         architecture: ["SolidWorks", "Finite Element Analysis (FEA)", "Kinematic Assembly", "Technical Drafting"],
@@ -208,7 +208,7 @@ const projectDataStore = {
     embedded_auto: {
         title: "EMBEDDED AUTOMATION CONTROLLER",
         category: "Automation & Embedded Systems",
-        company: "INFANTO LABS",
+        company: "INFANTO WESELY R",
         tagline: "Deterministic timing routines, relay sequencing, and industrial logic controllers.",
         overview: "Microcontroller-driven sequence controllers for automated industrial sorting, pneumatic cylinder actuation, and safety interlocks.",
         architecture: ["Arduino / ESP32", "Pneumatic Valves", "Optoisolated Relays", "State Machine Firmware"],
@@ -217,7 +217,7 @@ const projectDataStore = {
     robotics: {
         title: "MULTI-AXIS ARTICULATED ROBOTICS",
         category: "Robotics & Actuation",
-        company: "INFANTO LABS",
+        company: "INFANTO WESELY R",
         tagline: "Servo-driven multi-axis arm kinematics and trajectory planning.",
         overview: "Multi-degree-of-freedom robotic manipulator concept with inverse kinematics algorithms for precision pick-and-place automation.",
         architecture: ["Servo Actuators", "PWM Controllers", "Kinematics Firmware", "Custom Gripper"],
@@ -226,7 +226,7 @@ const projectDataStore = {
     additive_mfg: {
         title: "ADDITIVE MANUFACTURING (3D PROTOTYPING)",
         category: "Additive Manufacturing",
-        company: "INFANTO LABS",
+        company: "INFANTO WESELY R",
         tagline: "Rapid functional prototyping, infill optimization, and enclosure fabrication.",
         overview: "Designing functional mechanical enclosures and test jigs optimized for fused deposition modeling (FDM), utilizing PETG, PLA, and ABS materials for thermal and impact resistance.",
         architecture: ["FDM Slicing", "Tolerance Clearance Testing", "PETG / PLA Polymers", "Threaded Heat-Set Inserts"],
@@ -235,7 +235,7 @@ const projectDataStore = {
     vibration_monitor: {
         title: "VIBRATION & MACHINE HEALTH MONITORING",
         category: "Preventative Maintenance",
-        company: "INFANTO LABS",
+        company: "INFANTO WESELY R",
         tagline: "Piezoelectric accelerometer tracking for bearing failure prediction.",
         overview: "Continuous monitoring system analyzing mechanical oscillation frequencies to detect bearing wear, rotor unbalance, and misalignment before catastrophic downtime occurs.",
         architecture: ["Piezoelectric Accelerometers", "Fast Fourier Transform (FFT)", "Threshold Alarms"],

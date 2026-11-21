@@ -95,7 +95,7 @@ router.get('/projects', (req, res) => {
                 id: "safeguardx",
                 title: "SafeGuardX Smart Industrial Safety Helmet",
                 category: "Industrial Safety / AI and IoT",
-                company: "INFANTO LABS",
+                company: "INFANTO WESELY R",
                 isFlagship: false,
                 tagline: "Comprehensive wearable worker safety telemetry and hazardous condition detection.",
                 overview: "A connected smart industrial safety helmet integrating multi-parameter physiological and environmental sensors with low-latency cellular and satellite telemetry for harsh industrial environments.",

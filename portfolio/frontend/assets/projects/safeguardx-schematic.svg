@@ -15,7 +15,7 @@
 
   <!-- Header -->
   <g transform="translate(60, 50)">
-    <text x="0" y="0" class="subtitle">INFANTO LABS // INDUSTRIAL SAFETY &amp; IOT</text>
+    <text x="0" y="0" class="subtitle">INFANTO WESELY R // INDUSTRIAL SAFETY &amp; IOT</text>
     <text x="0" y="32" class="title">SAFEGUARDX — CONNECTED INDUSTRIAL SAFETY HELMET</text>
     <text x="0" y="55" font-family="'Inter', sans-serif" font-size="12" fill="#888888">
       Multi-Sensor Biometric Telemetry &amp; Environmental Threat Detection System
@@ -110,6 +110,6 @@
     <text x="30" y="60" font-family="'Inter', sans-serif" font-size="12" fill="#BBBBBB">
       Mining Excavations • High-Rise Construction Sites • Petrochemical Refineries • Underground Heavy Tunneling
     </text>
-    <text x="30" y="85" class="tag">INFANTO LABS HARDWARE PROTOTYPE // EMBEDDED C++ / FREE-RTOS</text>
+    <text x="30" y="85" class="tag">INFANTO WESELY R HARDWARE PROTOTYPE // EMBEDDED C++ / FREE-RTOS</text>
   </g>
 </svg>

@@ -2,7 +2,7 @@
 ### Founder & CEO — REX HÖREN INDUSTRIES | Product Innovator & Entrepreneur
 
 > **Tagline:** "ENGINEERING IDEAS INTO REALITY."  
-> **Brand Identity:** INFANTO LABS / IWR  
+> **Brand Identity:** INFANTO WESELY R / IWR  
 > **Institution:** K. Ramakrishnan College of Technology, Tamil Nadu, India  
 > **Degree:** B.E. Mechanical Engineering  
 
