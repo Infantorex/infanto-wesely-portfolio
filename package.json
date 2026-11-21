@@ -1,9 +1,11 @@
 {
   "name": "infanto-wesely-portfolio-root",
   "version": "1.0.0",
-  "description": "Root workspace script runner for Infanto Wesely R portfolio",
+  "description": "Root workspace script runner and GitHub synchronization for Infanto Wesely R portfolio",
   "scripts": {
     "start": "node portfolio/backend/server.js",
-    "dev": "node --watch portfolio/backend/server.js"
+    "dev": "node --watch portfolio/backend/server.js",
+    "sync": "powershell -ExecutionPolicy Bypass -File ./sync.ps1",
+    "push": "git add -A && git commit -m \"Update portfolio: %npm_config_message%\" && git push origin main"
   }
 }
