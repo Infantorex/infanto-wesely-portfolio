@@ -518,7 +518,7 @@ function initContactForm() {
             }
         } catch (err) {
             console.error('Contact submission error:', err);
-            showFeedback('Connection error. Please try again or email directly to infanto.wesely@example.com.', 'error');
+            showFeedback('Connection error. Please try again or email directly to infantowesely15@gmail.com.', 'error');
         } finally {
             submitBtn.disabled = false;
             submitBtn.innerHTML = originalText;
