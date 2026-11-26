@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" width="1000" height="650">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&amp;family=Space+Mono:wght@400;700&amp;family=Inter:wght@400;500;600&amp;display=swap');
+      .browser-hdr { font-family: 'Space Mono', monospace; font-size: 11px; fill: #64748B; }
+      .app-title { font-family: 'Space Grotesk', sans-serif; font-size: 18px; font-weight: 700; fill: #FFFFFF; }
+      .nav-item { font-family: 'Inter', sans-serif; font-size: 11px; fill: #94A3B8; }
+      .card-h { font-family: 'Space Grotesk', sans-serif; font-size: 13px; font-weight: 700; fill: #E2E8F0; }
+      .code-line { font-family: 'Space Mono', monospace; font-size: 11px; fill: #38BDF8; }
+    </style>
+  </defs>
+
+  <rect width="1000" height="650" fill="#0A0C10" rx="8"/>
+  <rect x="2" y="2" width="996" height="646" fill="none" stroke="#1E232E" stroke-width="1.5" rx="7"/>
+
+  <!-- Browser Frame Window -->
+  <g transform="translate(40, 40)">
+    <rect width="920" height="570" fill="#0E121A" stroke="#1F2637" rx="8"/>
+    
+    <!-- Browser Top Bar -->
+    <rect width="920" height="42" fill="#141923" rx="8 8 0 0"/>
+    <circle cx="25" cy="21" r="5" fill="#EF4444"/>
+    <circle cx="42" cy="21" r="5" fill="#F59E0B"/>
+    <circle cx="59" cy="21" r="5" fill="#10B981"/>
+
+    <rect x="180" y="8" width="560" height="26" rx="4" fill="#0C0F17" stroke="#252F44"/>
+    <text x="460" y="25" class="browser-hdr" text-anchor="middle">https://infanto-telemetry-portal.app/live-feed</text>
+
+    <!-- Web App Sidebar -->
+    <g transform="translate(0, 42)">
+      <rect width="180" height="528" fill="#101520" stroke="#1F2637" stroke-width="0.5"/>
+      <text x="25" y="40" class="app-title" font-size="14">IWR PORTAL</text>
+      
+      <g transform="translate(25, 75)">
+        <text x="0" y="0" class="nav-item" fill="#0A84FF" font-weight="700">● LIVE MONITOR</text>
+        <text x="0" y="32" class="nav-item">◈ REST API DOCS</text>
+        <text x="0" y="64" class="nav-item">◈ SENSOR LOGS</text>
+        <text x="0" y="96" class="nav-item">◈ MYSQL TELEMETRY</text>
+        <text x="0" y="128" class="nav-item">◈ CLIENT INTERFACE</text>
+      </g>
+
+      <rect x="15" y="440" width="150" height="65" rx="4" fill="#161D2B"/>
+      <text x="25" y="465" font-family="'Space Mono', monospace" font-size="9" fill="#0A84FF">STACK ARCHITECTURE</text>
+      <text x="25" y="485" font-family="'Inter', sans-serif" font-size="10" fill="#CBD5E1">Node.js • Express • MySQL</text>
+    </g>
+
+    <!-- Web App Main Content -->
+    <g transform="translate(205, 65)">
+      <!-- API Live Endpoint Banner -->
+      <rect width="690" height="65" fill="#131926" stroke="#232E44" rx="6"/>
+      <text x="25" y="28" class="card-h">EXPRESS.JS REST API STATUS // 200 OK</text>
+      <text x="25" y="48" class="code-line">GET /api/v1/sensors/telemetry -&gt; Response Time: 14ms | Compression: gzip</text>
+
+      <!-- 2 Cards Grid -->
+      <g transform="translate(0, 85)">
+        <rect width="335" height="180" fill="#121722" stroke="#1F2739" rx="6"/>
+        <text x="20" y="28" class="card-h">FRONTEND: HTML5 / CSS3 / JS</text>
+        <text x="20" y="55" font-family="'Inter', sans-serif" font-size="11" fill="#94A3B8">• Semantic HTML5 document structure</text>
+        <text x="20" y="80" font-family="'Inter', sans-serif" font-size="11" fill="#94A3B8">• Modular CSS3 Flexbox &amp; Grid layouts</text>
+        <text x="20" y="105" font-family="'Inter', sans-serif" font-size="11" fill="#94A3B8">• Vanilla ES6+ async/await fetch pipeline</text>
+        <text x="20" y="130" font-family="'Inter', sans-serif" font-size="11" fill="#94A3B8">• Dynamic DOM mutation without reloads</text>
+        <text x="20" y="155" font-family="'Space Mono', monospace" font-size="10" fill="#0A84FF">RESPONSIVE &amp; LIGHTWEIGHT</text>
+
+        <rect x="355" y="0" width="335" height="180" fill="#121722" stroke="#1F2739" rx="6"/>
+        <text x="20" y="28" class="card-h">BACKEND: NODE / EXPRESS / MYSQL</text>
+        <text x="20" y="55" font-family="'Inter', sans-serif" font-size="11" fill="#94A3B8">• Express middleware for CORS &amp; rate limit</text>
+        <text x="20" y="80" font-family="'Inter', sans-serif" font-size="11" fill="#94A3B8">• Input sanitization &amp; strict schema check</text>
+        <text x="20" y="105" font-family="'Inter', sans-serif" font-size="11" fill="#94A3B8">• Relational MySQL pool with JSON fallback</text>
+        <text x="20" y="130" font-family="'Inter', sans-serif" font-size="11" fill="#94A3B8">• Vercel serverless function export</text>
+        <text x="20" y="155" font-family="'Space Mono', monospace" font-size="10" fill="#10B981">ZERO STANDALONE SERVER LAG</text>
+      </g>
+
+      <!-- Code Snippet Area -->
+      <g transform="translate(0, 285)">
+        <rect width="690" height="175" fill="#0B0E14" stroke="#1E273A" rx="6"/>
+        <text x="20" y="25" font-family="'Space Mono', monospace" font-size="10" fill="#64748B">// SERVER CONTROLLER SNIPPET</text>
+        <text x="20" y="50" class="code-line">app.post('/api/contact', async (req, res) =&gt; {</text>
+        <text x="45" y="72" class="code-line">const { name, email, subject, message } = req.body;</text>
+        <text x="45" y="94" class="code-line">if (!isValidEmail(email)) return res.status(400).json({ error: "Invalid email" });</text>
+        <text x="45" y="116" class="code-line">await db.query('INSERT INTO contact_messages SET ?', newEntry);</text>
+        <text x="45" y="138" class="code-line">return res.status(200).json({ success: true, refId: newEntry.id });</text>
+        <text x="20" y="160" class="code-line">});</text>
+      </g>
+    </g>
+  </g>
+</svg>

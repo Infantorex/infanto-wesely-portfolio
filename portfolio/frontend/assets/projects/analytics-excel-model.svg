@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" width="1000" height="650">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&amp;family=Space+Mono:wght@400;700&amp;family=Inter:wght@400;500;600&amp;display=swap');
+      .title { font-family: 'Space Grotesk', sans-serif; font-size: 20px; font-weight: 700; fill: #FFFFFF; }
+      .meta { font-family: 'Space Mono', monospace; font-size: 11px; fill: #10B981; font-weight: 700; }
+      .sheet-hdr { font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 700; fill: #FFFFFF; }
+      .sheet-cell { font-family: 'Space Mono', monospace; font-size: 11px; fill: #E2E8F0; }
+    </style>
+  </defs>
+
+  <rect width="1000" height="650" fill="#0A0C10" rx="8"/>
+  <rect x="2" y="2" width="996" height="646" fill="none" stroke="#1E232E" stroke-width="1.5" rx="7"/>
+
+  <!-- Excel Top Header -->
+  <g transform="translate(40, 40)">
+    <rect width="920" height="60" fill="#11161F" stroke="#1A2433" rx="6"/>
+    <text x="25" y="36" class="title">MICROSOFT EXCEL // ADVANCED DYNAMIC MODELING &amp; PIVOT SUITE</text>
+    <rect x="730" y="16" width="165" height="28" rx="4" fill="#0D281E" stroke="#10B981" stroke-width="1"/>
+    <text x="812" y="34" class="meta" text-anchor="middle">EXCEL • XLOOKUP • PIVOTS</text>
+  </g>
+
+  <!-- Spreadsheet Table Simulation -->
+  <g transform="translate(40, 120)">
+    <rect width="920" height="260" fill="#0F141C" stroke="#1E2638" rx="6"/>
+    
+    <!-- Header Row -->
+    <rect x="0" y="0" width="920" height="36" fill="#16202E" rx="6 6 0 0"/>
+    <text x="25" y="23" class="sheet-hdr">COMPONENT_ID</text>
+    <text x="180" y="23" class="sheet-hdr">SYSTEM DOMAIN</text>
+    <text x="360" y="23" class="sheet-hdr">PLANNED BUDGET</text>
+    <text x="520" y="23" class="sheet-hdr">ACTUAL SPEND</text>
+    <text x="680" y="23" class="sheet-hdr">VARIANCE (%)</text>
+    <text x="820" y="23" class="sheet-hdr">STATUS</text>
+
+    <!-- Row 1 -->
+    <rect x="0" y="36" width="920" height="40" fill="#0F141C" stroke="#161E2D" stroke-width="0.5"/>
+    <text x="25" y="61" class="sheet-cell">VW-DSP-01</text>
+    <text x="180" y="61" class="sheet-cell">Vibrawave DSP Core</text>
+    <text x="360" y="61" class="sheet-cell">₹ 42,000</text>
+    <text x="520" y="61" class="sheet-cell">₹ 39,450</text>
+    <text x="680" y="61" class="sheet-cell" fill="#10B981">- 6.07%</text>
+    <text x="820" y="61" class="sheet-cell" fill="#10B981">OPTIMAL</text>
+
+    <!-- Row 2 -->
+    <rect x="0" y="76" width="920" height="40" fill="#131924" stroke="#161E2D" stroke-width="0.5"/>
+    <text x="25" y="101" class="sheet-cell">SG-SENS-04</text>
+    <text x="180" y="101" class="sheet-cell">SafeGuardX IMU Hub</text>
+    <text x="360" y="101" class="sheet-cell">₹ 18,500</text>
+    <text x="520" y="101" class="sheet-cell">₹ 18,100</text>
+    <text x="680" y="101" class="sheet-cell" fill="#10B981">- 2.16%</text>
+    <text x="820" y="101" class="sheet-cell" fill="#10B981">OPTIMAL</text>
+
+    <!-- Row 3 -->
+    <rect x="0" y="116" width="920" height="40" fill="#0F141C" stroke="#161E2D" stroke-width="0.5"/>
+    <text x="25" y="141" class="sheet-cell">HYD-MON-02</text>
+    <text x="180" y="141" class="sheet-cell">Hydraulic Transducers</text>
+    <text x="360" y="141" class="sheet-cell">₹ 55,000</text>
+    <text x="520" y="141" class="sheet-cell">₹ 53,200</text>
+    <text x="680" y="141" class="sheet-cell" fill="#10B981">- 3.27%</text>
+    <text x="820" y="141" class="sheet-cell" fill="#10B981">OPTIMAL</text>
+
+    <!-- Row 4 -->
+    <rect x="0" y="156" width="920" height="40" fill="#131924" stroke="#161E2D" stroke-width="0.5"/>
+    <text x="25" y="181" class="sheet-cell">TMX-HEAT-03</text>
+    <text x="180" y="181" class="sheet-cell">ThermoMix Induction</text>
+    <text x="360" y="181" class="sheet-cell">₹ 24,000</text>
+    <text x="520" y="181" class="sheet-cell">₹ 25,600</text>
+    <text x="680" y="181" class="sheet-cell" fill="#F59E0B">+ 6.67%</text>
+    <text x="820" y="181" class="sheet-cell" fill="#F59E0B">REVIEW</text>
+
+    <!-- Row 5 (Totals) -->
+    <rect x="0" y="196" width="920" height="40" fill="#16202E" stroke="#161E2D" stroke-width="0.5"/>
+    <text x="25" y="221" class="sheet-cell" font-weight="700">AGGREGATE</text>
+    <text x="180" y="221" class="sheet-cell" font-weight="700">All Active R&amp;D Lines</text>
+    <text x="360" y="221" class="sheet-cell" font-weight="700">₹ 1,39,500</text>
+    <text x="520" y="221" class="sheet-cell" font-weight="700">₹ 1,36,350</text>
+    <text x="680" y="221" class="sheet-cell" fill="#10B981" font-weight="700">- 2.26%</text>
+    <text x="820" y="221" class="sheet-cell" fill="#10B981" font-weight="700">UNDER BUDGET</text>
+  </g>
+
+  <!-- Highlights & Formulas -->
+  <g transform="translate(40, 400)">
+    <rect width="920" height="195" fill="#11161F" stroke="#1E2638" rx="6"/>
+    <text x="25" y="32" class="meta">ANALYTICAL FUNCTIONS &amp; DASHBOARD FEATURES</text>
+
+    <g transform="translate(25, 55)">
+      <text x="0" y="0" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">DYNAMIC LOOKUP &amp; INDEX MATCH</text>
+      <text x="0" y="22" font-family="'Inter', sans-serif" font-size="11.5" fill="#94A3B8">Seamless relational linkage between component bill-of-materials and procurement price indexes.</text>
+      <text x="0" y="44" font-family="'Space Mono', monospace" font-size="10.5" fill="#0A84FF">=XLOOKUP(part_id, catalog_table[id], catalog_table[cost], "Not Found")</text>
+    </g>
+
+    <g transform="translate(500, 55)">
+      <text x="0" y="0" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">MULTI-DIMENSIONAL PIVOT TABLES</text>
+      <text x="0" y="22" font-family="'Inter', sans-serif" font-size="11.5" fill="#94A3B8">Automated slicers filtering development iterations by timeline, supplier, and testing status.</text>
+      <text x="0" y="44" font-family="'Space Mono', monospace" font-size="10.5" fill="#10B981">GETPIVOTDATA("Variance", PivotTable1, "Phase", "Prototype")</text>
+    </g>
+  </g>
+</svg>

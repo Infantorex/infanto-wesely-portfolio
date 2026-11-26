@@ -109,6 +109,82 @@ router.get('/projects', (req, res) => {
                     "SIM800L GSM Telemetry Module"
                 ],
                 status: "Prototype Development & Sensor Validation"
+            },
+            {
+                id: "thermomix",
+                title: "ThermoMix Smart – Mechatronic Mixing System",
+                category: "Mechatronics / Thermal Automation",
+                company: "INFANTO WESELY R",
+                isFlagship: false,
+                tagline: "Closed-loop PID thermal regulation with variable-speed dual impeller fluid mixing.",
+                overview: "A mechatronic fluid processing system combining closed-loop PID temperature stabilization with high-torque variable-speed impeller mixing, engineered for laboratory fluid dynamics and industrial chemical batching.",
+                technologies: [
+                    "Dual DS18B20 & K-Type Thermocouples",
+                    "Closed-Loop PID Control Algorithm",
+                    "Pulse-Width Modulated (PWM) Heating",
+                    "BLDC Motor with Optical Encoder",
+                    "High-Shear Dual-Impeller Blades",
+                    "ESP32 Edge Microcontroller",
+                    "In-Situ OLED Telemetry HUD"
+                ],
+                status: "Working Prototype & Benchtop Testing"
+            },
+            {
+                id: "hydraulic_monitor",
+                title: "Backhoe Hydraulic Cylinder Monitor",
+                category: "Heavy Equipment Telemetry / Intellectual Property",
+                company: "INFANTO WESELY R (Inventor)",
+                isFlagship: true,
+                patentApplication: "202641130456 A",
+                tagline: "Continuous sensor-based hydraulic operating condition tracking and cavitation prevention.",
+                overview: "A smart sensor-based monitoring system specifically designed for continuous tracking of operating conditions in JCB backhoe hydraulic cylinders, identifying abnormal hydraulic conditions such as high pressure, thermal spikes, and low oil levels prior to catastrophic failure.",
+                disclaimer: "Published Indian Patent Application (The Patents Act, 1970). The Patent Office Journal No. 45/2026, Page 143864.",
+                technologies: [
+                    "Industrial Piezoelectric Pressure Transducer (up to 400 bar)",
+                    "Stainless-Steel RTD PT100 Oil Temperature Probe",
+                    "Continuous Optical/Capacitive Reservoir Oil-Level Sensor",
+                    "ESP32 Edge Controller with Analog Signal Conditioning",
+                    "Cabin OLED Real-Time Telemetry HUD",
+                    "Multi-Stage Audio-Visual Warning Alarm Engine",
+                    "Wireless Telemetry Fleet Maintenance Uplink"
+                ],
+                status: "Published Indian Patent Application (Journal No. 45/2026)"
+            },
+            {
+                id: "analytics_sensor",
+                title: "Industrial Sensor Telemetry & Anomaly Analytics",
+                category: "Data Analytics / Python & Pandas",
+                company: "INFANTO WESELY R",
+                isFlagship: false,
+                tagline: "Statistical outlier detection, feature engineering, and time-series sensor analytics.",
+                overview: "Developed Python data analysis pipelines utilizing Pandas, NumPy, and Seaborn to process, resample, and analyze over 128,000 telemetry records from industrial sensor rigs, detecting hydraulic pressure spikes and thermal anomalies using rolling z-score algorithms.",
+                technologies: [
+                    "Python 3.11",
+                    "Pandas DataFrames",
+                    "NumPy Vectorized Math",
+                    "Seaborn & Matplotlib",
+                    "Rolling Z-Score Outlier Heuristics",
+                    "Time-Series Imputation & Resampling"
+                ],
+                status: "Validated Analytical Pipeline"
+            },
+            {
+                id: "webdev_portal",
+                title: "Infanto Wesely R Founder Portfolio & Platform",
+                category: "Full-Stack Web Development",
+                company: "INFANTO WESELY R",
+                isFlagship: false,
+                tagline: "Modern full-stack web application with Node.js Express backend and Vercel serverless deployment.",
+                overview: "Architected and engineered this personal founder portfolio using semantic HTML5, modern CSS3, vanilla ES6+ JavaScript, an Express.js backend for asynchronous contact handling and telemetry APIs, and automated Vercel CI/CD Git integration.",
+                technologies: [
+                    "Semantic HTML5 & Modern CSS3",
+                    "Vanilla ES6+ JavaScript",
+                    "Node.js & Express.js REST API",
+                    "Vercel Serverless Functions",
+                    "Git & GitHub Actions / Vercel CI/CD",
+                    "Responsive Mobile Architecture"
+                ],
+                status: "Production Live"
             }
         ]
     });

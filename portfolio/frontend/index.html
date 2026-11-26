@@ -61,6 +61,8 @@
         <a href="#about" class="nav-link">About</a>
         <a href="#expertise" class="nav-link">Expertise</a>
         <a href="#projects" class="nav-link">Projects</a>
+        <a href="#analytics" class="nav-link">Analytics</a>
+        <a href="#webdev" class="nav-link">Web Dev</a>
         <a href="#ventures" class="nav-link">Ventures</a>
         <a href="#patents" class="nav-link">Patents</a>
         <a href="#experience" class="nav-link">Experience</a>
@@ -84,11 +86,13 @@
     <a href="#about" class="mobile-link"><span>About</span> <span class="number">01</span></a>
     <a href="#expertise" class="mobile-link"><span>Expertise</span> <span class="number">02</span></a>
     <a href="#projects" class="mobile-link"><span>Projects</span> <span class="number">03</span></a>
-    <a href="#ventures" class="mobile-link"><span>Ventures (Rex Hören)</span> <span class="number">04</span></a>
-    <a href="#patents" class="mobile-link"><span>Patents</span> <span class="number">05</span></a>
-    <a href="#experience" class="mobile-link"><span>Experience</span> <span class="number">06</span></a>
-    <a href="#achievements" class="mobile-link"><span>Achievements</span> <span class="number">07</span></a>
-    <a href="#contact" class="mobile-link"><span>Contact</span> <span class="number">08</span></a>
+    <a href="#analytics" class="mobile-link"><span>Data Analytics</span> <span class="number">04</span></a>
+    <a href="#webdev" class="mobile-link"><span>Web Development</span> <span class="number">05</span></a>
+    <a href="#ventures" class="mobile-link"><span>Ventures (Rex Hören)</span> <span class="number">06</span></a>
+    <a href="#patents" class="mobile-link"><span>Patents</span> <span class="number">07</span></a>
+    <a href="#experience" class="mobile-link"><span>Experience</span> <span class="number">08</span></a>
+    <a href="#achievements" class="mobile-link"><span>Achievements</span> <span class="number">09</span></a>
+    <a href="#contact" class="mobile-link"><span>Contact</span> <span class="number">10</span></a>
     <div style="margin-top: 1.5rem; display: flex; flex-direction: column; gap: 0.75rem;">
       <a href="/api/resume/download" class="btn btn-primary" download>Download Official Resume</a>
     </div>
@@ -111,16 +115,30 @@
               </span>
             </div>
 
-            <h1 class="hero-title">
-              <span class="highlight-line">ENGINEERING</span>
-              <span class="highlight-line">IDEAS INTO</span>
-              <span class="highlight-line serif-italic">Reality.</span>
-            </h1>
+            <!-- Founder Name Focal Title -->
+            <h1 class="hero-founder-name">INFANTO WESELY R</h1>
 
+            <!-- Headline -->
+            <div class="hero-founder-headline">
+              <span>Engineering</span>
+              <span class="sep">•</span>
+              <span>Innovation</span>
+              <span class="sep">•</span>
+              <span>Entrepreneurship</span>
+            </div>
+
+            <!-- Role Badges Array -->
+            <div class="hero-role-badges">
+              <span class="role-pill">Mechanical Engineering Student</span>
+              <span class="role-pill ceo"><i data-lucide="crown" style="width: 12px; height: 12px;"></i> Founder &amp; CEO</span>
+              <span class="role-pill">Product Innovator</span>
+              <span class="role-pill">Data Analytics Enthusiast</span>
+              <span class="role-pill">Web Developer</span>
+            </div>
+
+            <!-- Tagline -->
             <p class="hero-intro">
-              I'm <strong>Infanto Wesely R</strong> — Founder &amp; CEO of <strong>Rex Hören Industries</strong>, a
-              Mechanical Engineering student and product innovator exploring the intersection of engineering, technology
-              and entrepreneurship.
+              Building intelligent engineering solutions through design, technology and innovation.
             </p>
 
             <div class="hero-cta-group">
@@ -133,11 +151,15 @@
                 <i data-lucide="building" class="btn-icon"></i>
               </a>
               <a href="#patents" class="btn btn-secondary">
-                <span>View My Patents</span>
+                <span>View Patents</span>
                 <i data-lucide="file-check-2" class="btn-icon"></i>
               </a>
+              <a href="#analytics" class="btn btn-secondary">
+                <span>Data Analytics</span>
+                <i data-lucide="bar-chart-2" class="btn-icon"></i>
+              </a>
               <a href="/api/resume/download" class="btn btn-secondary" download>
-                <span>Download Resume</span>
+                <span>Resume</span>
                 <i data-lucide="download" class="btn-icon"></i>
               </a>
               <a href="#contact" class="btn btn-outline-orange">
@@ -219,16 +241,17 @@
 
             <div class="about-narrative">
               <p>
-                I am a Mechanical Engineering student at <strong>K. Ramakrishnan College of Technology</strong> and the
-                <strong>Founder &amp; CEO of Rex Hören Industries</strong>. My engineering work is grounded in
-                mechanical design, physical prototyping, and the deliberate synthesis of mechanical mechanisms with
-                electronics, firmware, and software.
+                I am a Mechanical Engineering student at <strong>K. Ramakrishnan College of Technology (KRCT)</strong> and the
+                <strong>Founder &amp; CEO of Rex Hören Industries</strong>. My engineering journey is grounded in classical mechanical
+                disciplines—fluid mechanics, heat transfer, structural kinematics, and precision CAD modeling—combined with
+                rigorous physical prototyping.
               </p>
               <p>
-                Rather than treating disciplines as separate silos, I explore how <strong>Internet of Things
-                  (IoT)</strong>, embedded controllers, and sensors elevate traditional mechanical assemblies. From
-                continuous hydraulic cylinder monitoring to non-invasive tactile assistive devices, my focus centers on
-                practical engineering innovation and structured entrepreneurial execution.
+                My entrepreneurial journey began with a mission: transforming theoretical principles into real-world,
+                human-centric products. At Rex Hören Industries, I direct hardware R&amp;D, embedded architecture, and strategic
+                execution. Rather than isolating engineering into silos, I intentionally synthesize <strong>mechanical design,
+                Internet of Things (IoT) sensors, microcontroller firmware (ESP32/Arduino), data analytics (Python &amp; Excel),
+                and modern web development</strong> into coherent, intelligent end-to-end solutions.
               </p>
             </div>
           </div>
@@ -238,29 +261,25 @@
               <div class="pillar-box">
                 <div class="pillar-code">PILLAR_01</div>
                 <h3 class="pillar-title">Mechanical Product Design</h3>
-                <p class="pillar-desc">SolidWorks CAD modeling, parametric mechanisms, stress analysis, additive
-                  manufacturing, and design for manufacturing (DFM).</p>
+                <p class="pillar-desc">SolidWorks CAD parametric modeling, geometric dimensioning and tolerancing (GD&amp;T), stress analysis, additive manufacturing, and design for manufacturing (DFM).</p>
               </div>
 
               <div class="pillar-box">
                 <div class="pillar-code">PILLAR_02</div>
                 <h3 class="pillar-title">Embedded IoT &amp; Automation</h3>
-                <p class="pillar-desc">Microcontroller firmware on ESP32 and Arduino, sensor integration, low-latency
-                  telemetry, and industrial sequence automation.</p>
+                <p class="pillar-desc">Microcontroller firmware on ESP32 and Arduino, multi-parameter sensor arrays, low-latency telemetry pipelines, and deterministic industrial sequence automation.</p>
               </div>
 
               <div class="pillar-box">
                 <div class="pillar-code">PILLAR_03</div>
-                <h3 class="pillar-title">Assistive Innovation</h3>
-                <p class="pillar-desc">Pioneering tactile acoustic conversion via trigeminal nerve stimulation with
-                  Vibrawave, recognized at the ARIFA Hackathon.</p>
+                <h3 class="pillar-title">Data Analytics &amp; Visualization</h3>
+                <p class="pillar-desc">Python (Pandas, NumPy, Seaborn) sensor time-series processing, statistical anomaly detection, and dynamic Microsoft Excel relational modeling suites.</p>
               </div>
 
               <div class="pillar-box">
                 <div class="pillar-code">PILLAR_04</div>
-                <h3 class="pillar-title">Startup Leadership</h3>
-                <p class="pillar-desc">Founder &amp; CEO direction at Rex Hören Industries, steering engineering
-                  research, venture architecture, and strategic roadmaps.</p>
+                <h3 class="pillar-title">Founder Leadership &amp; Ventures</h3>
+                <p class="pillar-desc">Founder &amp; CEO direction at Rex Hören Industries, steering engineering research, intellectual property documentation, and venture commercialization.</p>
               </div>
             </div>
           </div>
@@ -291,7 +310,7 @@
           <button class="tab-btn" data-target="mech">Mechanical Engineering</button>
           <button class="tab-btn" data-target="software">Programming &amp; Software</button>
           <button class="tab-btn" data-target="electronics">Electronics &amp; Automation</button>
-          <button class="tab-btn" data-target="tools">Engineering Tools</button>
+          <button class="tab-btn" data-target="tools">Engineering &amp; Analytics Tools</button>
         </div>
 
         <div class="expertise-category-grid">
@@ -300,7 +319,7 @@
           <div class="skill-category-card" data-category="mech">
             <div class="skill-card-header">
               <h3 class="skill-card-title">Mechanical Engineering</h3>
-              <i data-lucide="cog" style="color: var(--accent-orange);"></i>
+              <i data-lucide="cog" style="color: var(--accent-blue);"></i>
             </div>
             <div class="skill-tags-cloud">
               <span class="skill-chip">SolidWorks</span>
@@ -310,7 +329,7 @@
               <span class="skill-chip">Manufacturing Fundamentals</span>
               <span class="skill-chip">Additive Manufacturing</span>
               <span class="skill-chip">Engineering Drawing</span>
-              <span class="skill-chip">Design Analysis</span>
+              <span class="skill-chip">Design Analysis &amp; DFM</span>
             </div>
           </div>
 
@@ -318,17 +337,17 @@
           <div class="skill-category-card" data-category="software">
             <div class="skill-card-header">
               <h3 class="skill-card-title">Programming &amp; Software</h3>
-              <i data-lucide="code" style="color: var(--accent-orange);"></i>
+              <i data-lucide="code" style="color: var(--accent-blue);"></i>
             </div>
             <div class="skill-tags-cloud">
+              <span class="skill-chip">Python (Data Analytics &amp; Pandas)</span>
               <span class="skill-chip">HTML5</span>
               <span class="skill-chip">CSS3</span>
-              <span class="skill-chip">JavaScript</span>
-              <span class="skill-chip">Python Basics</span>
+              <span class="skill-chip">JavaScript (ES6+)</span>
               <span class="skill-chip">Node.js</span>
               <span class="skill-chip">Express.js</span>
               <span class="skill-chip">MySQL</span>
-              <span class="skill-chip">Bootstrap</span>
+              <span class="skill-chip">Bootstrap 5</span>
             </div>
           </div>
 
@@ -336,14 +355,14 @@
           <div class="skill-category-card" data-category="electronics">
             <div class="skill-card-header">
               <h3 class="skill-card-title">Electronics &amp; Automation</h3>
-              <i data-lucide="cpu" style="color: var(--accent-orange);"></i>
+              <i data-lucide="cpu" style="color: var(--accent-blue);"></i>
             </div>
             <div class="skill-tags-cloud">
               <span class="skill-chip">Arduino</span>
               <span class="skill-chip">ESP32</span>
               <span class="skill-chip">IoT Systems</span>
               <span class="skill-chip">Embedded Systems</span>
-              <span class="skill-chip">PCB Design</span>
+              <span class="skill-chip">PCB Design &amp; Layout</span>
               <span class="skill-chip">Sensors &amp; Instrumentation</span>
               <span class="skill-chip">Robotics</span>
               <span class="skill-chip">Industrial Automation</span>
@@ -353,15 +372,15 @@
           <!-- Category 4: Tools -->
           <div class="skill-category-card" data-category="tools">
             <div class="skill-card-header">
-              <h3 class="skill-card-title">Engineering Tools</h3>
-              <i data-lucide="wrench" style="color: var(--accent-orange);"></i>
+              <h3 class="skill-card-title">Engineering &amp; Analytics Tools</h3>
+              <i data-lucide="wrench" style="color: var(--accent-blue);"></i>
             </div>
             <div class="skill-tags-cloud">
-              <span class="skill-chip">Git</span>
-              <span class="skill-chip">GitHub</span>
+              <span class="skill-chip">Microsoft Excel (Advanced Modeling)</span>
+              <span class="skill-chip">Git &amp; GitHub</span>
+              <span class="skill-chip">Data Visualization (Seaborn/Matplotlib)</span>
               <span class="skill-chip">Canva</span>
               <span class="skill-chip">Microsoft PowerPoint</span>
-              <span class="skill-chip">Microsoft Excel</span>
             </div>
           </div>
 
@@ -489,14 +508,115 @@
             </div>
           </article>
 
-          <!-- PROJECT 03: EXPANDABLE ENGINEERING GALLERY -->
+          <!-- PROJECT 03: THERMOMIX SMART -->
+          <article class="project-case-card" id="project-thermomix">
+            <div class="case-card-grid">
+              <div class="case-card-content">
+                <div>
+                  <div class="case-meta">
+                    <span class="badge-tag orange">PROJECT 03</span>
+                    <span class="badge-tag white">INFANTO WESELY R</span>
+                    <span class="badge-tag blue">MECHATRONIC AUTOMATION</span>
+                  </div>
+
+                  <h3 class="case-title">ThermoMix Smart – Mechatronic Mixing System</h3>
+                  <div class="case-tagline">Closed-loop PID thermal regulation with variable-speed dual impeller fluid mixing.</div>
+
+                  <p class="case-desc">
+                    A mechatronic fluid processing system combining closed-loop PID temperature stabilization with high-torque
+                    variable-speed impeller mixing, engineered for laboratory fluid dynamics and industrial chemical batching.
+                  </p>
+
+                  <div class="case-tech-list">
+                    <span class="tech-badge">Dual DS18B20 Probes</span>
+                    <span class="tech-badge">K-Type Thermocouple</span>
+                    <span class="tech-badge">Closed-Loop PID Control</span>
+                    <span class="tech-badge">BLDC Motor (200-3500 RPM)</span>
+                    <span class="tech-badge">PWM Induction Heating</span>
+                    <span class="tech-badge">Optical Rotary Encoder</span>
+                    <span class="tech-badge">ESP32 &amp; OLED Telemetry</span>
+                  </div>
+                </div>
+
+                <div>
+                  <button class="btn btn-primary" data-project-id="thermomix">
+                    <span>View Dedicated Case Study</span>
+                    <i data-lucide="arrow-right" class="btn-icon"></i>
+                  </button>
+                </div>
+              </div>
+
+              <div class="case-visual-pane">
+                <img src="assets/projects/thermomix-schematic.svg"
+                  alt="ThermoMix Smart Precision Thermal Fluid Mixing System Architecture" data-project-id="thermomix"
+                  width="1000" height="650">
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 04: BACKHOE HYDRAULIC CYLINDER MONITOR -->
+          <article class="project-case-card" id="project-hydraulic-monitor">
+            <div class="case-card-grid">
+              <div class="case-card-content">
+                <div>
+                  <div class="case-meta">
+                    <span class="badge-tag orange">PROJECT 04</span>
+                    <span class="badge-tag blue">PUBLISHED PATENT APPLICATION</span>
+                    <span class="badge-tag white">APP: 202641130456 A</span>
+                  </div>
+
+                  <h3 class="case-title">Backhoe Hydraulic Cylinder Monitor</h3>
+                  <div class="case-tagline">Continuous sensor-based hydraulic operating condition tracking and cavitation prevention.</div>
+
+                  <p class="case-desc">
+                    A smart sensor-based monitoring system designed specifically for JCB backhoe hydraulic cylinders to continuously
+                    sample line pressure, fluid temperature, and reservoir oil levels, detecting abnormal conditions and micro-cavitation
+                    prior to mechanical failure.
+                  </p>
+
+                  <div style="background-color: rgba(10, 132, 255, 0.06); border-left: 2px solid #0A84FF; padding: 0.5rem 0.85rem; margin-bottom: 1.5rem; font-size: 0.8rem; color: #94A3B8;">
+                    <strong>Published Patent Application:</strong> Officially published in The Patent Office Journal No. 45/2026, Page 143864 under The Patents Act, 1970.
+                  </div>
+
+                  <div class="case-tech-list">
+                    <span class="tech-badge">Piezoelectric Pressure Transducer (400 Bar)</span>
+                    <span class="tech-badge">PT100 RTD Oil Temp Sensor</span>
+                    <span class="tech-badge">Continuous Reservoir Level Monitor</span>
+                    <span class="tech-badge">Industrial ESP32 Controller</span>
+                    <span class="tech-badge">In-Cabin OLED HUD</span>
+                    <span class="tech-badge">Audio-Visual Alarm Escalation</span>
+                    <span class="tech-badge">Wireless Maintenance Uplink</span>
+                  </div>
+                </div>
+
+                <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+                  <button class="btn btn-primary" data-project-id="hydraulic_monitor">
+                    <span>View Dedicated Case Study</span>
+                    <i data-lucide="arrow-right" class="btn-icon"></i>
+                  </button>
+                  <a href="#patents" class="btn btn-secondary">
+                    <span>View Gazette Specification</span>
+                    <i data-lucide="file-text" class="btn-icon"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="case-visual-pane">
+                <img src="assets/projects/hydraulic-monitor-schematic.svg"
+                  alt="Backhoe Hydraulic Cylinder Monitor System Architecture and Sensor Network" data-project-id="hydraulic_monitor"
+                  width="1000" height="650">
+              </div>
+            </div>
+          </article>
+
+          <!-- EXPANDABLE ENGINEERING GALLERY -->
           <div class="gallery-section-box">
             <div
               style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 1rem;">
               <div>
-                <span class="mono-tag">PROJECT 03 // EXPANDED CATALOG</span>
+                <span class="mono-tag">EXPANDED CATALOG // HARDWARE &amp; AUTOMATION</span>
                 <h3 style="font-size: 1.85rem; font-weight: 700; text-transform: uppercase; margin-top: 0.5rem;">
-                  Engineering &amp; Automation Gallery
+                  Engineering &amp; Automation Catalog
                 </h3>
               </div>
               <p style="font-size: 0.9rem; color: var(--text-muted); max-width: 480px;">
@@ -629,14 +749,184 @@
     </section>
 
     <!-- ==========================================================
-         08. FOUNDER & CEO – REX HÖREN INDUSTRIES
+         07. DATA ANALYTICS SECTION (DEDICATED)
+         ========================================================== -->
+    <section class="section" id="analytics">
+      <div class="container">
+
+        <div class="section-header">
+          <div class="section-header-top">
+            <span class="section-number">04 // DATA &amp; INSIGHTS</span>
+            <span class="section-coordinates">PYTHON / PANDAS / EXCEL / TELEMETRY</span>
+          </div>
+          <h2 class="section-title">DATA <span class="serif-italic">Analytics.</span></h2>
+          <p class="section-subtitle">Transforming empirical sensor streams, prototyping logs, and financial projections into validated actionable insights.</p>
+        </div>
+
+        <div class="analytics-grid">
+
+          <!-- Analytics Card 1: Python & Pandas -->
+          <article class="analytics-card" data-project-id="analytics_sensor">
+            <div class="analytics-thumb">
+              <img src="assets/projects/analytics-telemetry-dashboard.svg" alt="Python &amp; Pandas Industrial Sensor Telemetry &amp; Anomaly Analytics" width="600" height="380">
+            </div>
+            <div class="analytics-body">
+              <div>
+                <div class="analytics-pill">PYTHON 3.11 // PANDAS &amp; NUMPY // SEABORN</div>
+                <h3 class="analytics-title">Industrial Sensor Telemetry &amp; Anomaly Analytics</h3>
+                <p class="analytics-desc">
+                  Python-based data analytics pipeline for processing over 128,000 raw sensor records. Automated time-series cleaning, outlier imputation, rolling standard deviation analysis, and statistical Z-score thresholding to identify industrial machine anomalies.
+                </p>
+                <div class="analytics-skills-list">
+                  <span class="skill-chip">Python</span>
+                  <span class="skill-chip">Pandas</span>
+                  <span class="skill-chip">NumPy</span>
+                  <span class="skill-chip">Seaborn</span>
+                  <span class="skill-chip">Data Cleaning</span>
+                  <span class="skill-chip">Z-Score Outlier Detection</span>
+                  <span class="skill-chip">Time-Series Analysis</span>
+                </div>
+              </div>
+              <div>
+                <button class="btn btn-outline-orange btn-sm" data-project-id="analytics_sensor" style="width: 100%;">
+                  <span>Inspect Analytics Spec</span>
+                  <i data-lucide="arrow-right" class="btn-icon"></i>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Analytics Card 2: Microsoft Excel Dynamic Modeling -->
+          <article class="analytics-card" data-project-id="analytics_excel">
+            <div class="analytics-thumb">
+              <img src="assets/projects/analytics-excel-model.svg" alt="Microsoft Excel Dynamic Modeling &amp; Multi-Dimensional Pivot Suite" width="600" height="380">
+            </div>
+            <div class="analytics-body">
+              <div>
+                <div class="analytics-pill">MICROSOFT EXCEL // ADVANCED FORMULAS &amp; PIVOTS</div>
+                <h3 class="analytics-title">Dynamic Bill of Materials Modeling &amp; Variance Architecture</h3>
+                <p class="analytics-desc">
+                  Comprehensive relational Excel modeling system for hardware prototyping and supply chain logistics. Utilizes dynamic arrays, XLOOKUP relational mapping, multi-table pivot analytics, and scenario sensitivity managers to evaluate hardware cost trends.
+                </p>
+                <div class="analytics-skills-list">
+                  <span class="skill-chip">Microsoft Excel</span>
+                  <span class="skill-chip">XLOOKUP</span>
+                  <span class="skill-chip">Dynamic Arrays</span>
+                  <span class="skill-chip">Pivot Tables</span>
+                  <span class="skill-chip">Scenario Manager</span>
+                  <span class="skill-chip">Cost Variance Modeling</span>
+                </div>
+              </div>
+              <div>
+                <button class="btn btn-outline-orange btn-sm" data-project-id="analytics_excel" style="width: 100%;">
+                  <span>Inspect Analytics Spec</span>
+                  <i data-lucide="arrow-right" class="btn-icon"></i>
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================
+         08. WEB DEVELOPMENT SECTION (DEDICATED)
+         ========================================================== -->
+    <section class="section" id="webdev">
+      <div class="container">
+
+        <div class="section-header">
+          <div class="section-header-top">
+            <span class="section-number">05 // WEB ENGINEERING</span>
+            <span class="section-coordinates">FULL_STACK / INTERFACES / CLOUD</span>
+          </div>
+          <h2 class="section-title">WEB <span class="serif-italic">Development.</span></h2>
+          <p class="section-subtitle">Modern web interfaces and microservice APIs connecting hardware ecosystems to high-performance browser experiences.</p>
+        </div>
+
+        <div class="webdev-grid">
+
+          <!-- Web Dev Card 1: Founder Portfolio Platform -->
+          <article class="webdev-card" data-project-id="webdev_portal">
+            <div class="webdev-thumb">
+              <img src="assets/projects/webdev-iot-dashboard.svg" alt="Infanto Wesely R Founder Portfolio &amp; Platform" width="600" height="380">
+            </div>
+            <div class="webdev-body">
+              <div>
+                <div class="analytics-pill">FULL-STACK WEB // NODE.JS &amp; EXPRESS // VERCEL</div>
+                <h3 class="analytics-title">Founder &amp; Venture Digital Platform</h3>
+                <p class="analytics-desc">
+                  Custom-architected high-performance web platform built with semantic HTML5, modern CSS3 custom property theming, modular ES6+ JavaScript, Node.js Express serverless functions, and automated GitHub-to-Vercel continuous deployment.
+                </p>
+                <div class="analytics-skills-list">
+                  <span class="skill-chip">HTML5</span>
+                  <span class="skill-chip">CSS3</span>
+                  <span class="skill-chip">JavaScript (ES6+)</span>
+                  <span class="skill-chip">Node.js</span>
+                  <span class="skill-chip">Express.js</span>
+                  <span class="skill-chip">Vercel CI/CD</span>
+                  <span class="skill-chip">Semantic SEO</span>
+                </div>
+              </div>
+              <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+                <button class="btn btn-primary btn-sm" data-project-id="webdev_portal">
+                  <span>Case Study</span>
+                  <i data-lucide="arrow-right" class="btn-icon"></i>
+                </button>
+                <a href="https://github.com/Infantorex/infanto-wesely-portfolio" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  <i data-lucide="github" class="btn-icon"></i>
+                  <span>GitHub Repository</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Web Dev Card 2: IoT Live Telemetry Dashboard -->
+          <article class="webdev-card" data-project-id="webdev_telemetry">
+            <div class="webdev-thumb">
+              <img src="assets/projects/iot-monitoring.svg" alt="Edge Device Telemetry &amp; Monitoring Web Dashboard" width="600" height="380">
+            </div>
+            <div class="webdev-body">
+              <div>
+                <div class="analytics-pill">CLIENT-SIDE INTERFACES // REST API // REAL-TIME</div>
+                <h3 class="analytics-title">Edge Device Telemetry &amp; Monitoring Web Dashboard</h3>
+                <p class="analytics-desc">
+                  Responsive dark-mode web application providing telemetry dashboards, dynamic SVG sparklines, status gauges, and threshold alert logs for remote microcontroller devices. Built with vanilla JavaScript, Express.js REST endpoints, and low-latency JSON payloads.
+                </p>
+                <div class="analytics-skills-list">
+                  <span class="skill-chip">JavaScript</span>
+                  <span class="skill-chip">REST API</span>
+                  <span class="skill-chip">Express.js</span>
+                  <span class="skill-chip">Bootstrap 5</span>
+                  <span class="skill-chip">SVG Telemetry</span>
+                  <span class="skill-chip">JSON Middleware</span>
+                </div>
+              </div>
+              <div>
+                <button class="btn btn-outline-orange btn-sm" data-project-id="webdev_telemetry" style="width: 100%;">
+                  <span>Inspect Spec</span>
+                  <i data-lucide="arrow-right" class="btn-icon"></i>
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================
+         09. FOUNDER & CEO – REX HÖREN INDUSTRIES
          ========================================================== -->
     <section class="section venture-section" id="ventures">
       <div class="container">
 
-        <div class="section-header" style="border-top-color: var(--border-orange);">
+        <div class="section-header" style="border-top-color: var(--border-blue);">
           <div class="section-header-top">
-            <span class="section-number">04 // STARTUP LEADERSHIP</span>
+            <span class="section-number">06 // STARTUP LEADERSHIP</span>
             <span class="section-coordinates">REX_HÖREN_INDUSTRIES / FOUNDER_OFFICE</span>
           </div>
           <h2 class="section-title">BUILDING BEYOND <span class="serif-italic">The Classroom.</span></h2>
@@ -752,14 +1042,14 @@
     </section>
 
     <!-- ==========================================================
-         09. PATENTS & INTELLECTUAL PROPERTY
+         10. PATENTS & INTELLECTUAL PROPERTY
          ========================================================== -->
     <section class="section" id="patents">
       <div class="container">
 
         <div class="section-header">
           <div class="section-header-top">
-            <span class="section-number">05 // INTELLECTUAL PROPERTY</span>
+            <span class="section-number">07 // INTELLECTUAL PROPERTY</span>
             <span class="section-coordinates">IPO / GAZETTE_45_2026 / PG_143864</span>
           </div>
           <h2 class="section-title">INNOVATION THAT GOES <span class="serif-italic">Beyond Ideas.</span></h2>
@@ -855,14 +1145,14 @@
     </section>
 
     <!-- ==========================================================
-         10. EXPERIENCE TIMELINE
+         11. EXPERIENCE TIMELINE
          ========================================================== -->
     <section class="section" id="experience">
       <div class="container">
 
         <div class="section-header">
           <div class="section-header-top">
-            <span class="section-number">06 // CAREER</span>
+            <span class="section-number">08 // CAREER</span>
             <span class="section-coordinates">INTERNSHIPS / INDUSTRY_EXPOSURE</span>
           </div>
           <h2 class="section-title">LEARNING THROUGH <span class="serif-italic">Experience.</span></h2>
@@ -912,14 +1202,14 @@
     </section>
 
     <!-- ==========================================================
-         11. ACHIEVEMENTS & RECOGNITION
+         12. ACHIEVEMENTS & RECOGNITION
          ========================================================== -->
     <section class="section" id="achievements">
       <div class="container">
 
         <div class="section-header">
           <div class="section-header-top">
-            <span class="section-number">07 // MILESTONES</span>
+            <span class="section-number">09 // MILESTONES</span>
             <span class="section-coordinates">HONORS / HACKATHONS / INTELLECTUAL_PROPERTY</span>
           </div>
           <h2 class="section-title">PROGRESS WORTH <span class="serif-italic">Documenting.</span></h2>
@@ -1011,14 +1301,14 @@
     </section>
 
     <!-- ==========================================================
-         12. RESUME SECTION
+         13. RESUME SECTION
          ========================================================== -->
     <section class="section" id="resume">
       <div class="container">
 
         <div class="section-header">
           <div class="section-header-top">
-            <span class="section-number">08 // CREDENTIALS</span>
+            <span class="section-number">10 // CREDENTIALS</span>
             <span class="section-coordinates">CURRICULUM_VITAE / VERIFIED</span>
           </div>
           <h2 class="section-title">PROFESSIONAL <span class="serif-italic">Resume.</span></h2>
@@ -1074,14 +1364,14 @@
     </section>
 
     <!-- ==========================================================
-         13. CONTACT SECTION
+         14. CONTACT SECTION
          ========================================================== -->
     <section class="section" id="contact">
       <div class="container">
 
         <div class="section-header">
           <div class="section-header-top">
-            <span class="section-number">09 // COLLABORATION</span>
+            <span class="section-number">11 // COLLABORATION</span>
             <span class="section-coordinates">INQUIRIES / VENTURES / DIRECT</span>
           </div>
           <h2 class="section-title">HAVE AN IDEA? <span class="serif-italic">Let's Build Something.</span></h2>
@@ -1144,7 +1434,7 @@
             </div>
 
             <div style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--text-muted);">
-              LATITUDE / LONGITUDE: 10.7905° N, 78.7047° E // TIMEZONE: IST (UTC+05:30)
+              LOCATION: TAMIL NADU, INDIA // TIMEZONE: IST (UTC+05:30) // COLLABORATION: GLOBAL
             </div>
           </div>
 
@@ -1212,9 +1502,12 @@
             <a href="#about" class="footer-nav-link">About Me</a>
             <a href="#expertise" class="footer-nav-link">Technical Expertise</a>
             <a href="#projects" class="footer-nav-link">Featured Projects</a>
+            <a href="#analytics" class="footer-nav-link">Data Analytics</a>
+            <a href="#webdev" class="footer-nav-link">Web Development</a>
             <a href="#ventures" class="footer-nav-link">Rex Hören Industries</a>
             <a href="#patents" class="footer-nav-link">Published Patent Application</a>
             <a href="#experience" class="footer-nav-link">Experience</a>
+            <a href="#achievements" class="footer-nav-link">Achievements</a>
             <a href="#contact" class="footer-nav-link">Contact</a>
           </div>
         </div>
